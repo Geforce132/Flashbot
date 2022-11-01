@@ -102,6 +102,8 @@ async def activity(ctx, *args):
                 return
         
         await ctx.send(name + ' not found!')
+    else:
+        await ctx.send('Please include the name of an activity')
 
 @client.command()
 async def schedule(ctx, *, message: str = ""):
@@ -115,6 +117,10 @@ async def schedule(ctx, *, message: str = ""):
             await ctx.send("Campus '" + campus + "' not found. Perhaps you have a typo?")
     else:
         await ctx.send("Please include a campus name or abbreviation")
+
+@client.command()
+async def helpdocs(ctx, *args):
+    await ctx.send("See Flashbot's help documentation here: <https://github.com/Geforce132/Flashbot/blob/main/README.md>")
 
 async def create_plan(ctx, minutes=DEFAULT_SESSION_TIME_MINUTES):
     good_plan = False
