@@ -84,12 +84,14 @@ async def sessionplan(ctx, *args):
 
     if num_args == 0:
         await create_plan(ctx)
-    elif len(args) == 1:
-        try:
-            mins = int(args[0])
-            await create_plan(ctx, minutes=mins)
-        except:
-            await ctx.send('Non-numbers are not allowed')
+    elif num_args >= 1:
+        props = {'virtual': False, 'lowprep': False}
+
+        for name in props.keys():
+            if name in args:
+                props[name] = True
+        
+        await create_plan(ctx, virtual=props['virtual'], lowprep=props['lowprep'])
 
 @client.command()
 async def activity(ctx, *args):
@@ -122,7 +124,7 @@ async def schedule(ctx, *, message: str = ""):
 async def helpdocs(ctx, *args):
     await ctx.send("See Flashbot's help documentation here: <https://github.com/Geforce132/Flashbot/blob/main/README.md>")
 
-async def create_plan(ctx, minutes=DEFAULT_SESSION_TIME_MINUTES):
+async def create_plan(ctx, minutes=DEFAULT_SESSION_TIME_MINUTES, virtual=False, lowprep=False):
     good_plan = False
     
     while not good_plan:
@@ -132,14 +134,21 @@ async def create_plan(ctx, minutes=DEFAULT_SESSION_TIME_MINUTES):
         vark = ''
 
         for i in range(5):
-            strat = pick_activity(sel_strategies=sel_strats, activity_type=activity_types[i])
+            strat = pick_activity(sel_strategies=sel_strats, activity_type=activity_types[i], virtual=virtual, lowprep=lowprep)
             vark += strat['vark']
             sel_strats.append(strat)
         
         if check_plan(sel_strats, vark, times):
             good_plan = True
+    
+    props = ''
+    if virtual:
+        props += '🖥️ '
 
-    embed = discord.Embed(title="Here's a session plan for you!")
+    if lowprep:
+        props += '😴 '
+
+    embed = discord.Embed(title="Here's a session plan for you!\nType: " + (props.strip() if props else 'normal'))
 
     activity_names = ['Opener', 'Main activity 1', 'Main activity 2', 'Backpocket activity', 'Closer']
     for index, strat in enumerate(sel_strats):
@@ -174,7 +183,7 @@ def check_plan(strategies, vark, times):
 
     return good_plan
 
-def pick_activity(sel_strategies=[], activity_type=ACTIVITY_TYPE_MAIN):
+def pick_activity(sel_strategies=[], activity_type=ACTIVITY_TYPE_MAIN, virtual=False, lowprep=False):
     good_act = False
     iterations = 0
 
@@ -188,8 +197,16 @@ def pick_activity(sel_strategies=[], activity_type=ACTIVITY_TYPE_MAIN):
 
         # not the correct type of activity
         if not ACTIVITY_TYPE_EITHER:
-            if (act['mainActivity'] == 'true' and activity_type == ACTIVITY_TYPE_OPENER) or (act['mainActivity'] == 'false' and activity_type == ACTIVITY_TYPE_MAIN):
+            if (act['main_activity'] == 'true' and activity_type == ACTIVITY_TYPE_OPENER) or (act['main_activity'] == 'false' and activity_type == ACTIVITY_TYPE_MAIN):
                 continue
+
+        # not a virtual activity if needed
+        if virtual and not act['virtual'] == 'true':
+            continue
+
+        # not a lowprep activity if needed
+        if lowprep and not act['low_prep'] == 'true':
+            continue
 
         # same VARK designations as the previous activity
         if len(sel_strategies) >= 1 and sel_strategies[-1]['vark'] == act['vark']:

@@ -2,7 +2,8 @@
   "strategies": [{
       "name": "10 Words or Less",
       "description": "Assign students or groups a concept to explain concisely. A large concept can be broken down into ten word segments that build on each other, or smaller concepts can be explained in full. The difficulty can be adjusted by changing the number of words permitted.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 10
@@ -10,7 +11,8 @@
     {
       "name": "Alien Auction",
       "description": "Split students into small groups. Each group will be given a topic, and has five minutes to prepare a quick speech to sell the topic to a space alien (the SI Leader). The more aides (e.g. pictures, examples, analogies) a group uses, the more likely they are to successfully sell it to the alien. After each group presents, the alien decides which pitch was best.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAR",
       "time": 10
@@ -18,7 +20,8 @@
     {
       "name": "Around the World",
       "description": "Prepare a set of questions beforehand. Arrange the students in a circle and read a question to the first two students. The the next student. If the student gets a question wrong, they stay in place. The winner is whoever moves through the entire circle or answers the most questions correctly, whichever time permits. You can add a bonus round if they make it to the end, where the student faces off against the SI Leader while the other students provide questions.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "false",
       "vark": "AK",
       "time": 10
@@ -26,7 +29,8 @@
     {
       "name": "Breaking Down The Problem",
       "description": "Students break down a hefty word problem line-by-line and highlight each sentence/part with a different color. Have them explain what each sentence contributes to the problem in their own words, then work together to solve the problem. Once the problem is solved, have them go back to the work and highlight them the relevant information, using the same colors.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VR",
       "time": 20
@@ -34,7 +38,8 @@
     {
       "name": "Build a Number",
       "description": "Lay out boxes and operation symbols in the form of a problem. Shuffle a deck of playing cards and have students place random cards in the empty slots to complete the problem, then solve.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VK",
       "time": 15
@@ -42,7 +47,8 @@
     {
       "name": "Build an Event",
       "description": "This is similar to Build a Number but modified for non-math courses. Arrange mathematical symbols and events, people, or concepts to create a cause and effect relationship.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VRK",
       "time": 15
@@ -50,7 +56,8 @@
     {
       "name": "Clockwork Math",
       "description": "Break into groups and work problems, putting the solutions on the board. Group 1 will do problems 1-3, group 2 does problems 3-5, and group 3 would do problems 5-7, continuing as needed with overlapping problems. When all groups have solved their three problems, everyone stops. Each group presents their third problem to the overall group, the group who had the same problem checks their work, and corrections are discussed if needed.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "AR",
       "time": 10
@@ -58,7 +65,8 @@
     {
       "name": "Divide and Conquer",
       "description": "This strategy is designed to help students conquer a difficult reading assignment. Break up an assignment or passage of text into meaningful sections, and assign a piece to each student or pair. Once all the sections are read, have the students share a summary of the passage. Encourage students to ask each other questions based on the section they had read. Once all the summaries are shared, discuss the article as a whole.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 15
@@ -66,7 +74,8 @@
     {
       "name": "Five Steps to Finish",
       "description": "Students work together to create a five step plan for solving a needed to correctly solve the given problem. After creating the steps, they use their plan to solve the problem and refine their steps as needed. Variation: Have students work together to solve a multi-step problem. Once finished, have them condense (or expand) their steps into five step pathway for future use.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VR",
       "time": 10
@@ -74,7 +83,8 @@
     {
       "name": "Grab Bag",
       "description": "Print out a list of random subjects, questions, terms, or problems from all the recent lectures, cut them up into slips of paper, and toss them in a bag. Have students select one at random and answer the question accordingly. Variations:Students create questions for their peers based on what they drew from the bag. Have the group answer the questions.Have students create a memorable way to remember the term or concept they drew, such as mnemonics or movements.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "false",
       "vark": "AR",
       "time": 10
@@ -82,7 +92,8 @@
     {
       "name": "Identification Poetry",
       "description": "Split the students up into groups and give each group a small list of terms. Within these groups, the students will produce short poems that would help identify the term. When the students finish, have them present the poems. The other teams try and guess what term goes with each poem.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 10
@@ -90,7 +101,8 @@
     {
       "name": "Jigsaw",
       "description": "This is similar to Divide and Conquer. Assign groups a topic or task to become an expert in. Shuffle the groups so that each group consists of different experts, and have the students teach each other the content they covered.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "AR",
       "time": 10
@@ -98,7 +110,8 @@
     {
       "name": "Jumbled Rules",
       "description": "List all the rules or steps for a topic or problem in a random order, including incorrect steps to challenge the students. Have them correct the order and discuss the changes they made. Variation: Have some steps completely missing for the students to come up with.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VARK",
       "time": 10
@@ -106,7 +119,8 @@
     {
       "name": "Keep It Up",
       "description": "Using an inflated balloon, students take turns keeping a balloon up in the air by bouncing it on their palm while reciting a definition, process, or idea. Variation: Keep it up Write - Use a rubber band to tie off a balloon for each student. If a student has issues with a concept, have them write the concept or term on the balloon with a brief definition. After the activity is over, have students deflate their balloons; the definitions will remain on the balloon, which will be small enough to hold on to and transfer to paper.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "true",
       "vark": "VK",
       "time": 15
@@ -114,7 +128,8 @@
     {
       "name": "LinkedIn",
       "description": "Give the students a card with the name of a person or topic you want them to discuss. The students then create a concise profile for their concept. Categories to fill in could include work history, education, interests, or group membership for the topic. The goal is to have them give key details in profile that would enable another student to guess who/what they are. For an added challenge, have the students connect different profiles that could have something significant in common.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 15
@@ -122,7 +137,8 @@
     {
       "name": "Lucky Dice",
       "description": "Write either 6 or 12 numbered categories horizontally on the rolling dice and writing an item under the category. Once each category has a good number of items listed, have the students create a study guide for the topics, filling in more information for each topic.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VARK",
       "time": 10
@@ -130,7 +146,8 @@
     {
       "name": "Mad Libs",
       "description": "In this activity the SI Leader will write a series of terms that relate to one another on the board. Then the SI Leader will write a statement leaving blanks that must be filled in using those terms. Continue until all statements have been completed.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "AR",
       "time": 10
@@ -138,7 +155,8 @@
     {
       "name": "Mind the Gap",
       "description": "Have important terms, equations, and/or topics scattered on the board, using different colors correlating to unit or difficulty.1-2 Students: Have the students come up to the board with small white boards. Pick a term for both students to answer. If both are correct, erase the term; if both are wrong, keep it there. If one student is right, have them explain their answer to the other student.3+ Students: The person starting will pick a term from the board for another student to answer. If they get it right they can erase it; if not, leave it for another student to answer.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 15
@@ -146,7 +164,8 @@
     {
       "name": "Note Review",
       "description": "This is a method for the students to work together to review and augment their lecture notes in an organized way. In small groups, have the students take turns reading a portion of their notes. Encourage other students to interject with details missed or questions they have about the topic. Give students time to add information to their notes between turns. Afterward, discuss note-taking strategies and share suggestions, such as including questions for SI in the margins.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 15
@@ -154,7 +173,8 @@
     {
       "name": "Objection!",
       "description": "Two students are put in the spotlight and stand in opposite sides of the room. One of them will be instructed to defend the incorrect version of a concept determined by the SI Leader, while the other will defend the correct version. Both students are allowed to look for information in their notebooks that would help them convince the group, while the remaining students may not look at their notes. When the debate is over, the students act as a jury and stand on the side of the person they think is correct. At the end, the part of the jury that chose the correct side should defend their thinking.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 10
@@ -162,7 +182,8 @@
     {
       "name": "Pass the Marker",
       "description": "The SI Leader writes a problem on the board, as well as basic steps to the side. Pick a student to come up and do the first step of the problem. When they are finished, have them choose the student to do the next step. Repeat until the problem is solved, and try to ensure all students contribute (using additional problems if needed).",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VR",
       "time": 10
@@ -170,7 +191,8 @@
     {
       "name": "Pass the Question",
       "description": "Assign each student/group a section of the chapter or subject topassed to the next group, who answers. Repeat until every group has seen and answered all of the questions. Each question will have multiple answers provided. Afterward, have each group explain the answers to the questions they created.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 10
@@ -178,7 +200,8 @@
     {
       "name": "Peer Lessons",
       "description": "Select several problems over related material. Divide the students into 4-5 groups. Give each group one problem and have them write out the solution, using their books and class notes. Have each group come up and explain the problem in asprocess and methods used in finding the solution. The SI Leader adds or corrects anything they feel is necessary.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 10
@@ -186,7 +209,8 @@
     {
       "name": "Predict Test Questions",
       "description": "Put students in small groups and have them write a test question for a specific topic, ensuring that all topics have been covered. Ask students to write their test question on the board for discussion. Students will have the benefit of learning to think like the instructor and they'll be able to see additional questions that other students have written. Things to consider: Would the instructor ask this question? How would the instructor ask a question about?",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAR",
       "time": 10
@@ -194,7 +218,8 @@
     {
       "name": "Question Ball",
       "description": "Gather students and explain that each number on the question ball (a ball marked off in sections) corresponds to a particular idea from the course. Pass the question ball around to students and have the student with the ball read aloud the number that is under the specified finger. The SI Leader then asks the corresponding question, which should be open ended and require more than a one-word answer.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "false",
       "vark": "RK",
       "time": 10
@@ -202,7 +227,8 @@
     {
       "name": "Question Box",
       "description": "One student sits in the Question Box wherein they are questioned by peers about a randomly selected topic. After answering, the student then has the opportunity to ask their own questions about that topic, including those they could not answer. Be sure to allow an opportunity for each student to be in the Question Box. Variation: The student in the Question Box has to guess a key term that is provided to the other students, who are only allowed to describe or define the term.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "A",
       "time": 10
@@ -210,7 +236,8 @@
     {
       "name": "Quiz Your Peers",
       "description": "Give everyone five minutes to individually review both their lecture notes and the relevant chapters in their textbook. Pair up students, assign them a chapter or section, and have them create a set of test-like questions. The pairs take turns asking each other one of their questions until all the questions are answered. The pairs should be prepared to explain the answer to their question if needed. Variation: Rotating Peer Quiz - Have students answer only one question on the paper, then rotate to the next student.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 15
@@ -218,7 +245,8 @@
     {
       "name": "Right or Wrong",
       "description": "Print a correct and incorrect version of each concept, term, or equation. Students get one slip of paper with either the correct or incorrect version. They have to find their counterpart and write both versions on the board, and circle the correct version. (i.e. the person with a correct version finds the person with the incorrect version)",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "RK",
       "time": 10
@@ -226,7 +254,8 @@
     {
       "name": "Rotating Outline",
       "description": "Create incomplete outlines using the lecture or lecture slides. Split the students into groups, assign them an outline, and have them work together to answer the first 5-10 blanks of the outline. Then, the groups rotate to the next outline, repeating until all the outlines are complete. Alternatively, use worksheets, solving one problem at a time.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VR",
       "time": 10
@@ -234,7 +263,8 @@
     {
       "name": "SI Blast",
       "description": "SI Leader should cover the white board in questions. As the students come into the room they should begin answering everything they know about the questions on the white board. Once all questions have been answered, the students should correct each other’s work and talk about what was incorrect and why",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 10
@@ -242,7 +272,8 @@
     {
       "name": "Spot the Error",
       "description": "Intentionally make an error when solving a problem, labelling a diagram, or explaining a concept. Have students find and correct the errors, explaining why the error they found is incorrect. Variation: Sabotage! - Divide the students into teams. Have one team intentionally make an error in a process or problem and have the other team find and correct the errors. The teams should alternate between making and correcting the errors.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VR",
       "time": 10
@@ -250,7 +281,8 @@
     {
       "name": "Station to Station",
       "description": "Set up multiple stations around the room, with each having problems, questions, or various graphic organizers relating to a specific concept or set of concepts. Students choose which concepts to practice and do the problems together. Afterward, pick students to explain the concepts to the overall group.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "AR",
       "time": 10
@@ -258,7 +290,8 @@
     {
       "name": "Story Board / Movie Trailer",
       "description": "Each student is given an idea or a topic that they are asked to come up with a story for. Then all of the students will combine their ideas together and act out their story. Make a basic character list using different colors for each character. On note cards, have students outline the main points of the story. Then have students put cards in order and draw scenes underneath them depicting what's going on.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAR",
       "time": 10
@@ -266,7 +299,8 @@
     {
       "name": "Think-Pair-Share",
       "description": "This process requires three stages. The students should be given a question, concept, or problem and then encouraged to think about it alone for a short designated time period, utilizing their notes, or writing down their thoughts. Then they pair with another student and discuss what they found individually for an additional time period. Lastly, the pairs join the large group and discuss their conclusions as a whole.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 10
@@ -274,7 +308,8 @@
     {
       "name": "Throw Your Problems at Me",
       "description": "Have students write a question on a piece of paper about the course or a specified topic. They then crumple up the paper and throw it into a designated container or even at the SI Leader. The SI Leader reads the anonymous questions aloud and gives students a chance to answer them.Variations: Snowball Fight - Have students throw them at each other like a snowball fight. Throw Your Problems Away - Before an exam, have students write out their frustrations and throw them directly into the trash as a stress-relief activity.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "true",
       "vark": "ARK",
       "time": 10
@@ -282,7 +317,8 @@
     {
       "name": "Ultimate Exam Page",
       "description": "Divide a sheet of paper into sections, one per exam. Starting with the first exam, students write down ALL the important concepts they need to know for the test, such as equations or terms to memorize. Reuse the same sheet for each exam. When the final exam comes, they essentially have everything they need to review on one sheet. This can be done before or after each test, depending on the objective.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VR",
       "time": 20
@@ -290,7 +326,8 @@
     {
       "name": "Who am I? Headband",
       "description": "Make a headband for each student. Each headband will have a different name, concept, or picture related to the lecture, visible only to the other students. Students will walk up to each other and describe what is on the other person's headband without stating what's visible, while the other person tries to guess.Variation: Have students only ask yes or no questions about the term on their headband.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "false",
       "vark": "VAK",
       "time": 10
@@ -298,7 +335,8 @@
     {
       "name": "1 vs 100",
       "description": "The SI Leader prepares a set of multiple choice questions that can be projected onto a screen one at a time. Designate a different part of the room for each answer.One student goes to the front and faces the screen while the others go to the back. When a question is asked, the group of students move to the area pertaining to their choice and the student at the front answers. The SI Leader reveals the correct answer, incorrect students sit down, correct students stay up for the next question. When the student at the front gets the question wrong, choose a new student and reset the game.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "false",
       "vark": "RK",
       "time": 10
@@ -306,7 +344,8 @@
     {
       "name": "4 Corners",
       "description": "Choose four broad topics. Label four different sections of the room with those topics and divide the students into four corresponding teams. Have each student create three cards each about their topic, with the term on one side and a definition or picture on the other. When complete, shuffle the cards and have students sort them into their correct corner. Finally, have the original teams go to a different section than what they were assigned and determine if the cards in their new section are correctly sorted. If not, make corrections as a group.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VRK",
       "time": 10
@@ -314,7 +353,8 @@
     {
       "name": "5 Facts",
       "description": "This activity is a knowledge race between two teams. After breaking into teams, give a term they must list 5 facts about. The first team to list five facts about the topic wins two points. The other team can still gain a point by listing their five facts on the board. Variation: Give each team a different term that they cannot write on the board. After each team lists their five facts, challenge the other team to guess the term.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VR",
       "time": 10
@@ -322,7 +362,8 @@
     {
       "name": "Answer Quest",
       "description": "Create note cards with questions and have the corresponding answers on sticky notes spread around the room. Divide the students into two teams and give them time to review their notes. One person from each team reads the card at the top of the stack and races to find the correct answer. Have the students stick the answer to the question card and give the pair to their team. Rotate through students answering the questions until they are all answered. At the end, discuss the questions and make any corrections necessary.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "false",
       "vark": "ARK",
       "time": 15
@@ -330,7 +371,8 @@
     {
       "name": "Bankroll Fre$h",
       "description": "Divide students into two groups. Each team starts with a predetermined amount of fake money. A player from each team will come to the floor with their money. Once both players have come up, ask a question pertaining to the session's topic. Before answering the question, the contestants will place bets with their toy money. If they get the question right, their money will double. If they're incorrect, the money they bet will go into a pot, which can be won in a later bonus round, which should use a particularly challenging or tricky question that the groups discuss before answering.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "AR",
       "time": 10
@@ -338,7 +380,8 @@
     {
       "name": "Basta",
       "description": "Split the whiteboard into five sections, each with a course topic, and break the students up into corresponding groups. The SI Leader picks a letter, and each group must write a word that is relevant to their topic. When they're done writing a word, they yell 'Basta' and all groups stop writing. If the SI Leader determines that the first group's answer was incorrect, the game resumes, though groups can be given an opportunity to defend their answer. When a group is correct, have the students change topics and pick a new letter to start a new round.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 10
@@ -346,7 +389,8 @@
     {
       "name": "Bingo",
       "description": "Make a 5x5 grid with a different number (1-25) randomly in each square. Give each student a numbered list of answers or terms. The SI Leader asks questions or gives definitions and the students mark the number on their boards that goes with the answer. The first student to complete a Bingo in whatever method the SI Leader determined wins. Options include a horizontal or vertical line, four corners, or even the full board.*see online resources card for Bingo templates*.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "AR",
       "time": 10
@@ -354,7 +398,8 @@
     {
       "name": "Bloom's Board",
       "description": "Draw a simple game board. Mark each square with the numbers 1-3 to mark difficulty level (according to Bloom's Taxonomy). Have each student answer questions matching the number they land on. Questions should be prepared in advance or as a different session activity. Give students 1 min for level 1, 2 minutes for level 2, and so on.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VARK",
       "time": 10
@@ -362,7 +407,8 @@
     {
       "name": "Body Building",
       "description": "Groups of students work together to create an acronym about a specific topic being covered. The acronym can't be longer than the number of people, usually 4-5, in the group. Each group must then use their bodies to spell out the acronym, while competing groups guess what each letter stands for. This can be done individually instead of as groups by having a student act out each letter one at a time with other students guessing.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAK",
       "time": 10
@@ -370,7 +416,8 @@
     {
       "name": "Build-a-Thing",
       "description": "Students work in pairs or small groups competing to build the tallest tower (or longest object, or a certain predetermined shape fastest). They're provided questions in a bag to answer and a key to check their answer against. They should work the questions one at a time, discussing as a group. If they get the question correct, they gain a piece to use in construction. Challenge questions can be added to allow students to 'buy' helpful materials like tape, and penalties can be added such as needing to incorporate a popsicle stick for each incorrect answer.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "RK",
       "time": 10
@@ -378,7 +425,8 @@
     {
       "name": "Capture the Flag",
       "description": "Break into two teams of students. The goal is to obtain the opposing team's flag (colored paper) and return to your home base before the other team returns to their home base. Set up two rows of stations with matching worksheets. Each team's flag is at the final station. Either team must correctly solve a problem on the worksheet to move to the next station. Once they obtain the other team's flag, they must work back through the stations to get to their home base.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "false",
       "vark": "RK",
       "time": 10
@@ -386,7 +434,8 @@
     {
       "name": "Castle Attack",
       "description": "Split students into at least two teams and have them draw or create a castle of equivalent pieces. Each team will be asked a content related question. If they answer correctly, the team may choose to either attack another team's castle by removing one piece or restore one of their own castle's missing pieces. After a set time or number of questions designated by the SI, the team with the highest number of pieces win.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAK",
       "time": 10
@@ -394,7 +443,8 @@
     {
       "name": "Categories",
       "description": "The SI Leader will make a list of categories. The students try to think of as many concepts, terms, or people that belong in the category as they can. The student or team who lists the most that are correct wins.Variation: Scattergories - Name as many items in a category that start with the same letter. Choose a letter from the alphabet, draw a category, set a timer, and go!",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "R",
       "time": 10
@@ -402,7 +452,8 @@
     {
       "name": "Charades",
       "description": "A student comes forward and acts out a concept without saying any words. The other students guess what the person is acting out. The first person to guess correctly gets a point, and whoever has most points wins the game. Students can be divided into teams that compete against each other as well.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "true",
       "vark": "VK",
       "time": 10
@@ -410,7 +461,8 @@
     {
       "name": "Competitive Hangman",
       "description": "Pick a term related to the topic and put lines on the board to represent each letter (e.g. cat = _ _ _). The objective is for students to guess the word by earning the ability to guess individual letters. Prepare a list of questions and split the students into two teams. Students take turns answering questions. If they are correct, they can guess a letter. If the letter is not in the word, add a body part to the stick figure. If the question was incorrect, let the other team answer. If nobody gets the question correct, discuss it as a group before moving on.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 15
@@ -418,7 +470,8 @@
     {
       "name": "Competitive Problem Solving",
       "description": "Split the students into two teams. Have one team member from each team come up to the board to work a problem. The person that answers correctly fastest earns a point for their team. If a person at the board does not know the correct answer, someone else from their team can try. Afterward, go through each step and clarify any questions that students may have. This works best when people are comfortable with the material but it can also challenge those who need more practice.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "AR",
       "time": 10
@@ -426,7 +479,8 @@
     {
       "name": "Confidence",
       "description": "Students gather in a circle around a cup set on a table. In the cup will be slips of paper with questions on them. For larger groups, split into smaller groups with questions based on content portions. One student will flip a coin. The next student will try to figure out if it was heads or tails. If they guess correctly, they flip the coin. If they guess wrong, they draw a question from the cup, answer, and then they get the coin. If the student gets the question wrong, another student can steal it and then they get the coin and play continues.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "false",
       "vark": "VARK",
       "time": 10
@@ -434,7 +488,8 @@
     {
       "name": "Connect 4 Shots",
       "description": "",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "true",
       "vark": "AK",
       "time": 10
@@ -442,7 +497,8 @@
     {
       "name": "Dungeon Keeper",
       "description": "Inform students that they have entered a room and need 5 keys in order to go through the door. In order to collect the keys, they must complete 5 tasks. Provide the students with at least 9 keys/tasks to choose from, and to add difficulty, base the tasks on the levels of VARK and color-code properly. Alternately, the colors can be based on topics in the unit.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VARK",
       "time": 30
@@ -450,7 +506,8 @@
     {
       "name": "Eggspert",
       "description": "",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "false",
       "vark": "AK",
       "time": 10
@@ -458,7 +515,8 @@
     {
       "name": "Fish Bowl",
       "description": "Split group into two teams, and have a list of terms in a bag or container. One person from each team chooses a term and tries to get their team to guess according to the rules of the current round. Each person only has one minute to guess before the next team takes their turn. Teams hold on to their correct words for points. The round ends when there are no more terms in the bag. Return the terms to the bag and repeat. Round 1- Describe term using any other words. Round 2- Describe term with one word only. Round 3- No words, only acting or drawing!",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VARK",
       "time": 10
@@ -466,7 +524,8 @@
     {
       "name": "Flyswatter",
       "description": "Two students compete against each other on the board. Write vocabulary terms on the board and give each student a flyswatter. Give the description of one of the terms while students face away from the board. Students race to be the first to slap the corresponding term.Variation: Break students into groups and assign each a chapter or section. They make 3-5 flash cards with important terms and all the groups cards are used in the game. Whoever wins the round reads the definition for the next round.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAK",
       "time": 10
@@ -474,7 +533,8 @@
     {
       "name": "Go Fish",
       "description": "Make index cards with vocabulary terms (two of each word). Deal 5-7 cards per person, and put excess in the middle as a draw pile. Based on the cards in their hand, a player asks 'Does anyone have (definition)?' If another player has the matching term, the student asking gets the card, completing their set. The player with the most sets wins.If the asking player does not know the definition for their card but the user with the match does, they can ‘steal’ it by providing the definition. Discuss terms that give the group problems or are left over at the end.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "false",
       "vark": "AK",
       "time": 10
@@ -482,7 +542,8 @@
     {
       "name": "Group Relay",
       "description": "Split the students into two groups. One person from the team answers a question for their team before they can move onto the next question, and peers confirm if the answer is correct. Groups can have only one question at a time, and a different group member should get the next question. The team that completes the most questions in the designated amount of time wins.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "AR",
       "time": 10
@@ -490,7 +551,8 @@
     {
       "name": "Grudge Ball",
       "description": "Split students into teams and assign each a section of content. The teams get a certain amount of time to come up with questions to ask opposing groups over the material. Teams take turns asking questions. Each team gets a set amount of points (x or tally on the board) to start and every time a team answers correctly they erase another team's point. The team with the most points at the end wins.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 10
@@ -498,7 +560,8 @@
     {
       "name": "Guess Who/What",
       "description": "Divide your students into teams. Each team is assigned a theme, person, vocabulary word, etc. The teams take turns asking yes or no questions trying to guess each other's words. If you guess another team's word, then you get a point. You can play however many rounds you want if you want to play by points or you can just do one round and whoever guesses the word first wins.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "A",
       "time": 10
@@ -506,7 +569,8 @@
     {
       "name": "Human Board Game",
       "description": "",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "false",
       "vark": "AK",
       "time": 10
@@ -514,7 +578,8 @@
     {
       "name": "Jazz Hands",
       "description": "Prepare a set of numbered notecards. Write as many topics as there are notecards on the board, assigning a number to each topic. Give each student one of the notecards, and have them arranged in a circle. When the music begins, have students pass the cards clockwise. Once the music stops, the student keeps whatever notecard they are holding. The SI Leader calls out a number, and the student who has that number goes up to the corresponding topic and writes one fact about it. The other new round starts.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "false",
       "vark": "ARK",
       "time": 10
@@ -522,7 +587,8 @@
     {
       "name": "Jeopardy",
       "description": "Arrange a game board listing categories as the row header and point values increasing below each category. The key is being well prepared with about 30-35 'answers' at different levels of difficulty and in different categories. Form small groups and let them know the rules: No books or notes. Designate a different person to answer each question but the team can discuss the concept before giving the answer. If the question is missed, other teams can steal. Teams keep control of the board with correct 'questions' or alternate from group to group. *see online resources card for Jeopardy templates* ",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "AR",
       "time": 10
@@ -530,7 +596,8 @@
     {
       "name": "Knowledge Tents",
       "description": "Write concepts on index cards, fold the cards in half and take turns grabbing a tent and explaining the concept to the group. The student explaining the concept gets points based on what method they choose, while the student who guesses correctly gets 1 point. Explain it, no word limit (1 point) Explain it in only two words (2 points) Draw the concept without words (5 points) Act out the concept (7 points)",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VARK",
       "time": 15
@@ -538,7 +605,8 @@
     {
       "name": "Level Up",
       "description": "Level up is a relay type game with 3 levels. Split your students into teams, smaller groups will work better. Have three activities or games planned for each of the 'levels'. For example, the first level is 4 minutes of each team identifying key concepts and terms with just pictures. The second level will have a 6-8-minute matching game with a word bank and definitions or descriptions. For each correct answer of the first two levels, award the group 1 point. The final or “boss” round will feature video clips over the content and teams will compete to buzz in first for double points. Whoever has the most points wins! It works for lots of subjects and the activities or “levels” can be open for whatever you choose.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VARK",
       "time": 15
@@ -546,7 +614,8 @@
     {
       "name": "Memory",
       "description": "Make cards using vocab terms, pictures, key words, etc. and have the corresponding definition on a separate card. Mix them up and place them face-down.Break the students up into teams to compete against each other. Each student/team takes turns choosing two cards and turning them over. If the student thinks they are directly related or match, they must explain defend their answer. If the student is correct then they keep the cards and the next team goes. If they're incorrect, or the cards don't match, turn them back over and the next team goes. The game ends when the last pair of cards has been picked up. The team with the most pairs wins.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VARK",
       "time": 10
@@ -554,7 +623,8 @@
     {
       "name": "Mission Impossible",
       "description": "Prepare a number of questions of varying type, and separate them based on difficulty. Split students into small groups, and give each group an envelope containing easier questions. The students work together to answer the questions, and check their answers with the mission advisor (SI Leader) once complete. If all the questions are correct, they receive a new envelope with questions of a higher difficulty level or an essay type question to answer on the board. The first team to complete all missions wins.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "AR",
       "time": 10
@@ -562,7 +632,8 @@
     {
       "name": "Mother May I",
       "description": "Stand at the front of the room and have the students lined up against the back wall. Have students take turns asking if they can take a certain number of steps. Ask them a question corresponding to the number of steps. For example, ten steps is a hard question, one step is an easy question. If they answer correctly they step forward. If they're incorrect, they step back the number of paces they requested. The first student to reach the front of the room wins.Variation: Ask true/false questions. Students step forward for true and stay put for false. If a student is incorrect, they go back to the beginning.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AK",
       "time": 10
@@ -570,7 +641,8 @@
     {
       "name": "Pictionary Ws",
       "description": "Split into equal teams and draw terms out of a bag. Each team will take turns and have a set amount of time to draw their pictures. The drawing team will have someone draw a representation of the term while their team has to guess the term as well as write down the significance (who, what, when, where, why) on the board. The first team to do it within the answer the term, then the opposing team has a chance to steal a point. The first team to 10 points wins.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAR",
       "time": 10
@@ -578,7 +650,8 @@
     {
       "name": "POP!",
       "description": "Prepare a large number of questions or terms, each on a labelled 'POP!' mixed in. Students take turns pulling a card. They read the question aloud and answer it. If they're correct, they keep the card, if incorrect, the card gets placed back in the mix. When a POP! card is drawn, all cards earned by the student go back into the pile to be answered again and they keep the POP! card. The game keeps going until there are no more cards or time runs out, and the objective is to finish with the most question cards earned.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "AR",
       "time": 15
@@ -586,7 +659,8 @@
     {
       "name": "React",
       "description": "Using a combination of question cards and “React” cards, divide students into groups with buzzers to play. The SI shuffles the deck and play begins from the top card, with SI reading it aloud. If it is a normal question card, students work in groups to buzz in with the correct answer. Correct answers are given points of 1-2, incorrect answers are allowed to be stolen. If the card reads “React”, then students are given a kinesthetic task to complete (examples: explain a topic while keeping a ball up, draw a diagram on the board, etc.). These are given points of 2-5. Continue play until the deck is complete or you run out of time.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "false",
       "vark": "VARK",
       "time": 15
@@ -594,7 +668,8 @@
     {
       "name": "Relay Mania",
       "description": "Have a major topic or question written on the board, and ensure all students have their own color marker. The first student starts working on the question or filling in information. The second student rolls dice repeatedly until they get doubles. At that point, the first student stops, and the second student picks up where they left off using their own color. Repeat the process until the question is completely answered or all students have contributed to the topic.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "false",
       "vark": "VR",
       "time": 10
@@ -602,7 +677,8 @@
     {
       "name": "Roll and Ramble",
       "description": "Prior to activity write 3 sets of six key words, one word for each number on a die. ROUND 1: Students roll a die and are given the word correlating to that number in the first set of keywords. If students roll the same number, they are assigned the same word. Students are given two minutes to write down the most important things about their keyword, and then share it with the group. Answers cannot be repeated for those with the same word. ROUND 2: The same steps apply, but now use the second set of keywords. Students again share, but also must show how their second word relates to their first word. ROUND 3: The same steps apply. Students now use the third set of keywords and show how the first two words relate to the third.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VARK",
       "time": 10
@@ -610,7 +686,8 @@
     {
       "name": "Scribe Wars",
       "description": "Split students into two teams. One scribe from each team concept, or vocabulary term as possible within a given amount of time with help from their team. The team with the most accurate information when time runs out wins the round. Time can vary depending on the size of the group and scope of the topic. Variation: Have the scribe write on their own for a set amount of time before the team can contribute.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAR",
       "time": 10
@@ -618,7 +695,8 @@
     {
       "name": "Shootout",
       "description": "Create a grid on the board and have students write key terms, people, or events in the spaces. The SI Leader should be prepared to ask questions or give prompts about what is written on the board. Arm two students with Nerf guns. The first person to shoot the correct answer gets 2 points, the other student gets 1 point if they're correct, and if a student is incorrect they lose 1 point.Variation: Graphic Shootout - Draw a graphic organizer on the board and have students fill out information in the section they shoot.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "false",
       "vark": "VAK",
       "time": 15
@@ -626,7 +704,8 @@
     {
       "name": "Simon Says",
       "description": "The SI Leader states an action that the students are supposed to perform. If the leader begins the command with 'Simon Says' then the student does the action. However, if the leader doesn't say 'Simon Says' prior to giving the action, then any student that performs the action is eliminated. Likewise, any student that doesn't perform the action after 'Simon Says' is also eliminated. This can be used to demonstrate the course content in various ways, such as pointing out body structures or movements, or showing the shape of a graph.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAK",
       "time": 10
@@ -634,7 +713,8 @@
     {
       "name": "SI Pong",
       "description": "Have cups set up in a pyramid configuration with either a vocabulary term or question in each cup. Students toss ping pong balls into the cups and answer the assigned question. If students have difficulties aiming, you can use a trash can orapproximate landing areas.If working in teams and a student is unable to answer, they can then turn to their team for help. Alternatively, the other player can answer to steal the point.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "false",
       "vark": "AK",
       "time": 10
@@ -642,7 +722,8 @@
     {
       "name": "Taboo",
       "description": "Prepare note cards with vocabulary or key terms and one out the cards. One person in the group explains the term to the other students without using any of the words written on the guessed, add 2 more words to the card to make it more challenging. After all the words have been guessed, have the groups switch cards.Variation: Password - Play as pairs rather than groups with only one word clues and no limiters. The pair with the most correctly-guessed words in the time limit wins.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "A",
       "time": 10
@@ -650,7 +731,8 @@
     {
       "name": "Tic Tac Toe",
       "description": "Draw a 3 by 3 grid on the board. Number the squares and have a corresponding question, term, or problem prepared for each number. Have students take turns answering questions, placing an X or O on the board when they answer correctly. Whichever student or team gets a full row of their symbol wins.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAR",
       "time": 10
@@ -658,7 +740,8 @@
     {
       "name": "Verbal Volleyball",
       "description": "Arrange students in pairs or a large group. One student will shout out a concept or term, then the next will add on to it. Students will continue volleying concepts until they run out of ideas, avoiding repetition. Alternatively, the SI Leader states a concept and students provide details.Variation: Don't Say 'Uh' - Toss the ball around and have students state five things about the idea without filler words.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "true",
       "vark": "AK",
       "time": 10
@@ -666,7 +749,8 @@
     {
       "name": "Vocabulary Speed Dating",
       "description": "Prepare two stacks of note cards in two different colors, one for vocabulary or concepts and the other for definitions. Split the group into two and line them up facing one another, giving each line cards from different stack. The definition line stays stationary, while vocabulary line asks questions. Neither line may reveal what's on their card. After a minute, the vocabulary line shifts to change pairs, repeating until everyone has paired up once. At the end, students pair up with the person they whether the matches are correct.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "false",
       "vark": "AK",
       "time": 10
@@ -674,7 +758,8 @@
     {
       "name": "Word Snake",
       "description": "Depending on how many students you have, you can either split them up into teams or play as a group. The first student must choose a word, any word from your session. The next student must choose a word that begins with the same letter that the first word ended with. The next student would choose a word that starts with the same letter the second word ended with and so on until all of the students have given a word. If a word has been said, it can't be used again.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "A",
       "time": 10
@@ -682,7 +767,8 @@
     {
       "name": "Catastrophe",
       "description": "Each student will go up to the board and write 2-3 terms from the content material covered. The board should be filled with terms. One student goes up, circles two terms and connects them with a line, and explains how the they are connected to each other. Repeat this process, rotating through students. The activity is finished when all of the words have been connected.Variation: Use yarn to make it kinesthetic. Each term can be placed in the hands of a student (or object in the room) and the yarn is what connects the terms.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAK",
       "time": 15
@@ -690,7 +776,8 @@
     {
       "name": "Catastrophic Timeline",
       "description": "This is a combination of Catastrophe and Timeline. Give the students the beginning and end of a sequence or process. Then provide topics, concepts, or steps for the sequence and have the students connect them chronological order. With each individual connection, have them write a defense on why the topics are connected. If there is a topic that connects to multiple others, have the students put the topic to the side of the timeline and have them defend why that topic connects to multiple topics.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VAR",
       "time": 10
@@ -698,7 +785,8 @@
     {
       "name": "Chain Link Vocabulary",
       "description": "Interactive vocabulary matching. Each student receives a card definition on the bottom. The student must match their definition to the person with the matching vocabulary word. This continues until everyone is matched, making a chain. Variation: 'I Have, Who Has' - Students say they have [term], and ask who has [definition], to verbally match the cards.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VARK",
       "time": 10
@@ -706,7 +794,8 @@
     {
       "name": "Concept Connection",
       "description": "Create a handout with questions, formulas, and terms that board), write several answers, examples, and concepts that are interrelated, which students will use as an answer bank.Have students use sticky notes to label the answer bank with any information they can recall, as well as connections they can make. Once finished, group the students together to work on the insert, matching details from the answer bank to the handout.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VR",
       "time": 10
@@ -714,7 +803,8 @@
     {
       "name": "Concept Mapping",
       "description": "Break the students into small groups and have them write an important concept or idea in a circle on the board. Have students write subtopics or related ideas in circles connected to the central circle. Continue expanding the map with related ideas and details, defending connections as needed. Once the important details have been covered, discuss as a group.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAR",
       "time": 15
@@ -722,7 +812,8 @@
     {
       "name": "Continuum",
       "description": "Create a scale across the board. The two ends of the along either side of the continuum (terms, concepts, idea, examples). Have students provide details that explain why they are opposing ideas, as well as fill in terms or concepts that fall in the middle.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAR",
       "time": 10
@@ -730,7 +821,8 @@
     {
       "name": "Flippy Pages",
       "description": "Take a blank sheet of printing paper and fold it in half the long way. On the top half of the folded sheet, cut flaps that are approximately an inch wide; the outside flap is labeled with the prompt and the inside page reveals the answer.Variation: Layered Flippy Book - Take multiple pieces of paper and leave an inch or so between them lying flat. Fold the papers to create a layered book. Write the main idea on the gap and the needed information inside.",
-      "mainActivity": "true",
+      "main_activity": "false",
+      "virtual": "false",
       "low_prep": "true",
       "vark": "VR",
       "time": 10
@@ -738,7 +830,8 @@
     {
       "name": "Frayer Model",
       "description": "The Frayer Model is a chart with four sections marked for a for the word or concept that's put in the center. The sections can be changed to suit what's needed for a specific session, such as misconceptions or formulas.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VR",
       "time": 15
@@ -746,7 +839,8 @@
     {
       "name": "GUESS",
       "description": "This is a problem solving method. G.U.E.S.S. stands for Given, Unknown, Equation, Set-up and Solve.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VR",
       "time": 15
@@ -754,7 +848,8 @@
     {
       "name": "Graph Match",
       "description": "Put graphs and the matching equation on separate slips of pairs can be matched properly. Students have to find their match and explain to the group why they match.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VAK",
       "time": 10
@@ -762,7 +857,8 @@
     {
       "name": "Incomplete Outline",
       "description": "Create a set of incomplete lecture notes by making an outline with some of the parts missing. The groups must work through their notes to figure out how to fill in the outline. Determining major points can help to sort information and locate ideas being communicated, making connections easier to find and understand. This activity helps students recognize both main ideas and patterns in how information is provided.Variation: Use graphic organizers instead of just sentences.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VR",
       "time": 10
@@ -770,7 +866,8 @@
     {
       "name": "Layered Flippy Book",
       "description": "Take multiple pieces of paper and leave an inch or so between them lying flat. Fold the papers to create a layered book. Write the main idea on the gap and the needed information inside.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "false",
       "low_prep": "true",
       "vark": "VR",
       "time": 10
@@ -778,7 +875,8 @@
     {
       "name": "Math Match",
       "description": "List formulas and their names (if applicable) on one side of the board and sample word problems on the other side. Have the students match each formula to the corresponding word problem. If multiple formulas should be used for a given problem, have students make those connections as well. Once everything is matched, the students should explain their reasoning for each.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VAR",
       "time": 10
@@ -786,7 +884,8 @@
     {
       "name": "Organizational Flashcards",
       "description": "Make flashcards from the chapter using categories, definitions, problems, or formulas that student will have to physically match, place in order, or arrange into a visual organizer like a concept map. You can use worksheets or additional resources in order to increase the versatility of the exercise.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VRK",
       "time": 15
@@ -794,7 +893,8 @@
     {
       "name": "Post it Vocabulary",
       "description": "Have students write what they think are the main themes of the course so far on the board. Split the students into teams and give each team a stack of sticky notes to write terms relevant to their assigned topic. Once the students hit a stopping point, discuss the terms that were generated.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAR",
       "time": 10
@@ -802,7 +902,8 @@
     {
       "name": "T-Chart",
       "description": "",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAR",
       "time": 10
@@ -810,7 +911,8 @@
     {
       "name": "The Matrix",
       "description": "On the board or on paper, draw a grid with headers and topics filled out. Have students fill in the remaining boxes with details that fit both criteria, and discuss as a group to fill in any missing pieces.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAR",
       "time": 10
@@ -818,7 +920,8 @@
     {
       "name": "Timeline",
       "description": "Draw a line that representing a sequence or stretch of time. Important events are inserted relative to each other creating points on the line. Each event should be marked with the date, a brief description of the event, and significant people involved. Have students define or give an example of related terms. Variation: Double Timeline - Give the students a very general timeline with dates, events, and people and have them construct a duplicate timeline using lecture material directly below the one you provided, either with more specific information or different related events.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VR",
       "time": 10
@@ -826,7 +929,8 @@
     {
       "name": "Timeline Game",
       "description": "This is a cooperative game where each student receives a different set of notecards with events on them and must work together to put them in correct chronological order. Have the desired dates on the board (alternatively, use the room space via chairs, tables, or walls). After the students have put the cards in order, go through the events with the group to ensure all matches are correct, and have the students make corrections as needed.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VARK",
       "time": 10
@@ -834,7 +938,8 @@
     {
       "name": "Venn Diagram",
       "description": "A Venn Diagram can be used to compare the similarities and differences between two concepts, systems or theories. Two overlapping circles are drawn on the board with each circle labeled as one of the two concepts. Students will then write the similarities in the overlapping portion and then differences in the outer portion of the circles. This is a good visual technique for reviewing similar yet contrasting concepts.",
-      "mainActivity": "true",
+      "main_activity": "true",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VR",
       "time": 15
@@ -842,7 +947,8 @@
     {
       "name": "3:2:1",
       "description": "This strategy can be very useful before an exam. Have each student come up with 3 topics that they know well enough to “teach” to the other students, 2 topics that they do not understand and need further assistance with, and 1 possible test question. Then have each student write their 3:2:1 topicson the board. Most of the time, the students’ topics will overlap allowing students to “teach” the other students who need additional assistance. Follow up with discussion of the possible test questions.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 5
@@ -850,7 +956,8 @@
     {
       "name": "Adjective Annie",
       "description": "Every student introduces themselves with their name and an adjective that describes them, if possible with some alliteration. Every student after the first participant must name all the students that came before them before they introduce themselves. This becomes very difficult with large groups. Variation: Have students come up with adjectives for content based ideas from lecture. For example, a student could state “democratic FDR” for Franklin Delano Roosevelt. This can help students create relationships in the content that they’ll remember for the exam.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "A",
       "time": 5
@@ -858,7 +965,8 @@
     {
       "name": "Bat Signal",
       "description": "The idea is that each student spends 1-2 minutes thinking of their most difficult part of the current unit. They all share them, and the SI Leader records their responses. For the next session, the SI Leader prepares some sort of activity focused on/covering each of those topics. The activity could be a worksheet, crossword puzzle, video summary on YouTube, or an SI game/session activity tailored towards those specific topics that students are struggling with.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "A",
       "time": 5
@@ -866,7 +974,8 @@
     {
       "name": "Best/Worst",
       "description": "Have each person share their best and worst moments from the previous week. Try to steer the group away from school items. This icebreaker is an easy one to use at first and gives you good feedback concerning their life at the moment. Later in the semester, include course content as a topic to gauge student confidence.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "A",
       "time": 5
@@ -874,7 +983,8 @@
     {
       "name": "Caption This",
       "description": "Print out funny pictures and have the students rotate or pick a photo and caption the picture. After a few minutes, go through the pictures and see what captions they came up with. This activity can be used as a stress reliever after an exam or as an icebreaker activity to get more comfortable with your students.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VR",
       "time": 5
@@ -882,7 +992,8 @@
     {
       "name": "Elevator Pitch",
       "description": "Each student will be assigned a topic, concept, theory, etc. Each student will take about 5 minutes to create a brief, persuasive speech that includes information such as key terms, main ideas, perspective, or ways to remember the information (tailored to course type). Students will then walk up to each other, introduce themselves, and “pitch” their topic. Elevator music can be played, with a chime sound to indicate the end of the round, at which point the students move around to find a new partner. Discuss as a group at the very end.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "ARK",
       "time": 10
@@ -890,7 +1001,8 @@
     {
       "name": "Favorites Spin Wheel",
       "description": "Put random categories on a spin wheel such as ice cream, restaurant, office supply, holiday, etc. Each person will spin the wheel and tell everyone what their favorite thing is in that category. Can be used again as a closer and this time have each person tell everyone what their LEAST favorite is in the category.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VARK",
       "time": 10
@@ -898,7 +1010,8 @@
     {
       "name": "Funds of Knowledge",
       "description": "Have students share something that they are really knowledgeable about. This can be either outside the course content or, as the semester advances, about subtopics in the course. This opens the door for people to learn about things that they may not have been able to experience in their own lives.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAR",
       "time": 10
@@ -906,7 +1019,8 @@
     {
       "name": "Heroes",
       "description": "Ask each member to name three people, past or present, they admire. Why? Or, ask them if they could interview anyone in history, who would that be and why? What one or two questions would they want to ask?",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "A",
       "time": 5
@@ -914,7 +1028,8 @@
     {
       "name": "High, Low, Hope",
       "description": "Have students share a high point and low point for the prior week, plus a hope for the upcoming week. Have students use this time to share their positives and build one another up as well as remind students of resources that may be available through the college.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "A",
       "time": 5
@@ -922,7 +1037,8 @@
     {
       "name": "Ice Ice Baby",
       "description": "Name one dream destination you wish you could be at right now with one person you want to join you, and finally one item you could take.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "A",
       "time": 5
@@ -930,7 +1046,8 @@
     {
       "name": "If I Was...",
       "description": "Have each person finish the sentence stem of “If I was ___, I would be...” based on a prompt.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAR",
       "time": 5
@@ -938,7 +1055,8 @@
     {
       "name": "Index Card Icebreaker",
       "description": "Have students write down one really unique thing about themselves. Collect the cards and read them aloud one by one. Next, have everyone guess which fact goes with which student.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "ARK",
       "time": 5
@@ -946,7 +1064,8 @@
     {
       "name": "KWL",
       "description": "Helps students to activate prior knowledge and link to new information to make connections with what is already known. Title 3 columns: 'What I Know', 'What I Want to Know', and 'What I Learned.' At the beginning of the session, have students fill out the K and the W columns. Have the group help fill in each other’s gaps, and toward the end of the session have students fill out the L column. When possible, adjust the focus of the session, or a future session, on information from the W column.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 5
@@ -954,7 +1073,8 @@
     {
       "name": "M&Ms Game",
       "description": "Pass a bag of M&M's around and tell everyone to take a few. Then, before they eat them ask them to share something for every M&M. For example, something about their family for every red one, something about their plans for the future for every green one, etc.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "AK",
       "time": 5
@@ -962,7 +1082,8 @@
     {
       "name": "Mentalist",
       "description": "The SI Leader creates a list of ten words or concepts that describe the topics covered in the session. To check for understanding at the end of the session, ask students to create their own list of ten word or concepts covered in the session. Afterwards, the SI Leader shares their list. Points are as follows, depending on time allowed: 1 point - matches with SI Leader version  2 points - students can correlate their topics with SI Leader version",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "R",
       "time": 5
@@ -970,7 +1091,8 @@
     {
       "name": "Nuggets of Knowledge",
       "description": "After the first exam of the semester, have the students write a piece of advice for next semesters' students about the class and the first test. At the end of the semester, have the students write a piece of advice for next semesters students about the class as a whole and how to do well. When the next semester comes around, give the new set of students the advice to help them succeed in the class.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "R",
       "time": 5
@@ -978,7 +1100,8 @@
     {
       "name": "On and Off The Bus",
       "description": "Students stand in a straight line with the SI Leader at the front of the room. SI Leader presents two options corresponding with the left or right side of the line, and the students step ‘off the bus’ to the side that aligns with the option they prefer (Star Wars vs Star Trek, for example). Course content can be included by asking questions with two answer choices, such as true or false.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "AK",
       "time": 5
@@ -986,7 +1109,8 @@
     {
       "name": "One Distraction",
       "description": "Have students share one distraction that they are experiencing. This could also be a hurdle they are facing, a struggle they are having, or just something that they need help getting through. Have them write it on sticky notes or index cards (anonymously if they wish) and those who are willing to have their shared can mark it and then possible solutions can be shared as a group. For those who did not share anonymously but also did not want them read, the SI can offer solutions privately.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 5
@@ -994,7 +1118,8 @@
     {
       "name": "One Minute Write",
       "description": "The one minute paper is designed to help students realize what they know or do not know i.e. “check for understanding”. The leader should ask the students to take out a piece of a paper and write on the topic presented by the leader. Remind them it is most important that they put their thoughts on paper in their own words, not that they produce a polished piece of writing. Then have each student share their response with the group. Additionally, the leader may choose to encourage conversation regarding similarities and differences between students’ ideas.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 5
@@ -1002,7 +1127,8 @@
     {
       "name": "Paper Airplane",
       "description": "Everyone makes a paper airplane and writes their name, something they like and dislike on it (You may also want to add additional questions). On cue, everyone throws their airplane around the room. If you find an airplane, pick it up and keep throwing it for 1-2 minutes. At the end of that time, everyone must have one paper airplane. This is the person they must find and introduce to the group.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "false",
       "low_prep": "true",
       "vark": "ARK",
       "time": 10
@@ -1010,7 +1136,8 @@
     {
       "name": "Personal Bubble",
       "description": "Have each student draw a circle, either on the board or on a blank sheet of paper. In this 'bubble' the student should either draw or write what they want in their bubble. It should be things that make the person happy and satisfied. Then, they should draw another bubble, this bubble will be filled with all the things you don't want interfering with your good bubble. Now ask each student to take one bad thing listed and put it in the good bubble. They should find a way to not let the bad thing disrupt or interfere with their happy/good bubble",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VR",
       "time": 10
@@ -1018,7 +1145,8 @@
     {
       "name": "Picture Hunt",
       "description": "Give the students a topic, then they have to find an image or meme that connects to the topic. The student then presents the picture and explains how/why it connects to the topic. Or have the other students try and guess how/why it connects to the topic.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VA",
       "time": 10
@@ -1026,7 +1154,8 @@
     {
       "name": "Picture Perfect Process",
       "description": "Each team gets a process or topic that they are in charge of drawing out on the board. The other teams have to explain the process using only the drawing given by the other teams. If some parts of the process are out of order or there are missing steps, the other teams have the chance to correct the process and fill in the gaps.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VR",
       "time": 10
@@ -1034,7 +1163,8 @@
     {
       "name": "Plan It Out",
       "description": "Have students draw a brief calendar and plan out their time. Have them write out the upcoming test date and determine which sections they need to cover each day to properly review between now and then.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAR",
       "time": 10
@@ -1042,7 +1172,8 @@
     {
       "name": "Pumpkin",
       "description": "Have the students draw a picture on the board or piece of paper that describes their mood or what they are feeling. Students share their creation with the class and have them guess what the picture is displaying. For holidays, have students draw on a decoration of some sort. Example: pumpkins for Halloween. Variation: Have students draw a picture that describes themselves then mix them together and have everyone guess who is who.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 10
@@ -1050,7 +1181,8 @@
     {
       "name": "Recaptcha",
       "description": "Before the session, print out 7-12 images found online, some related to a certain course topic and some that are not. Give students a term or prompt, then have them place stickers or another type of indicator on the images they feel can be correlated to the given term. Have them justify their connections afterwards.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VAK",
       "time": 10
@@ -1058,7 +1190,8 @@
     {
       "name": "Start Stop Continue",
       "description": "After an exam, close the session with a discussion about study habits. Use three columns on the board to keep track of responses. Have students write what they feel they need to start doing to prepare for tests, what they must stop doing, and what they must continue doing. This can also be done before an exam to help students switch gears and think about their current habits.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 5
@@ -1066,7 +1199,8 @@
     {
       "name": "Stop Light",
       "description": "Have various topics listed out. Students will place a circle to correspond with their comfort level for each one. They will use green if they feel good about it and know the topic well, yellow if they kind of know it but could use a little more practice and clarification, or red if they need lots of help and don't understand the topic at all.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAR",
       "time": 5
@@ -1074,7 +1208,8 @@
     {
       "name": "Study Buddy Bookmark",
       "description": "Students work together to compile a list of all the topics covered for a particular unit, and each student writes the list on a piece of paper cut to bookmark size. As they review, have them mark on the bookmark topics that they need to focus on, or mark out topics that they fully understand.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "false",
       "low_prep": "true",
       "vark": "AR",
       "time": 10
@@ -1082,7 +1217,8 @@
     {
       "name": "Summarize the Lecture",
       "description": "As a group, summarize the lecture from the previous class. You may provide prompts for the students. For example: “The first concept discussed was Civil Liberties and Public Policy, what did the professor highlight regarding this?” You may want to ask them to try summarizing without looking at their notes; however, if they are having a difficult time remembering, tell them to refer to their notes.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "A",
       "time": 5
@@ -1090,7 +1226,8 @@
     {
       "name": "Table Topics",
       "description": "Provide random question prompts for students to randomly select or pick between. These are meant to start a conversation at the table.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 5
@@ -1098,7 +1235,8 @@
     {
       "name": "Tip Jar",
       "description": "Have students write a study tip on a slip of paper and collect them all in a container. Students randomly draw one of the slips and read the tip aloud to the group, and provide a way that they might use that study tip themselves.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 5
@@ -1106,7 +1244,8 @@
     {
       "name": "Two Truths and a Lie",
       "description": "Students take turns listing 3 interesting facts about themselves, two of which are true and one of which is a lie. The other students try to determine which one of the facts is a lie. Could also be turned into Two Lies and a Truth Variation: Use this for course content by having a student list two truths and a lie about a concept and have the group determine which statement is false.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "A",
       "time": 5
@@ -1114,7 +1253,8 @@
     {
       "name": "VARK Out",
       "description": "The students receive a task based on their VARK preference and have 1-5 minutes to complete the task. Students have to show that they understand different ways they can apply VARK to their course. Students should have an idea of their learning preference before doing this activity. Examples: “V” students could create a picture or graphic organizer for a concept. “A” students could verbally summarize a given topic in their own words. “R” students could do a 1 minute paper, and “K” students could act out a concept.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "false",
       "vark": "VARK",
       "time": 10
@@ -1122,7 +1262,8 @@
     {
       "name": "What Have You Learned Today?",
       "description": "Give students a few minutes to reflect on the session alone or in pairs. Have students share what they’ve learned or become more confident on during the session. Students can also share topics or ideas they will focus on as a result of the session's activities.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "A",
       "time": 5
@@ -1130,7 +1271,8 @@
     {
       "name": "Word Spell",
       "description": "The SI Leader writes a word or concept on the board. Students take turns writing a term that shares its first letter with one of the letters provided. Continue until either the students use up all the letters in the original word or students get stuck on a specific letter. If needed, allow students to use words that contain that specific letter. As an icebreaker, have students start out with their own name and use personal descriptions for each letter. Variation: Challenge the students to create a crossword puzzle that includes words that start with each letter in the given concept.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "AR",
       "time": 10
@@ -1138,7 +1280,8 @@
     {
       "name": "Would You Rather?",
       "description": "Have each student answer a “Would You Rather?” style question.",
-      "mainActivity": "false",
+      "main_activity": "false",
+      "virtual": "true",
       "low_prep": "true",
       "vark": "VAR",
       "time": 10
