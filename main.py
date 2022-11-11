@@ -79,6 +79,30 @@ async def catastrophe(ctx, *, message: str=""):
         await ctx.send(ACTIVITY_INFO['catastrophe']['syntax'])
 
 @create.command()
+async def answer_quest(ctx, *, message: str=""):
+    if message != "":
+        info = message.split(",", 1)
+
+        if len(info) == 2:
+            mural_name = info[0]
+            info[1] = info[1].strip()
+
+            split_list = info[1].split('|')
+
+            if len(split_list) == 2:
+                terms = {}
+                terms['terms'] = split_list[0].split(',')
+                terms['definitions'] = split_list[1].split(',')
+
+                await ACTIVITY_INFO['answer_quest']['function'](ctx, mural_name, terms)
+            else:
+                await ctx.send(ACTIVITY_INFO['answer_quest']['syntax'])
+        else:
+            await ctx.send(ACTIVITY_INFO['answer_quest']['syntax'])
+    else:
+        await ctx.send(ACTIVITY_INFO['answer_quest']['syntax'])
+
+@create.command()
 async def mural(ctx, *, message: str=""):
     if message != "":
         await ACTIVITY_INFO['mural']['function'](ctx, message)

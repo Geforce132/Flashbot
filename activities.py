@@ -8,6 +8,9 @@ import requests
 from math import floor
 from flashbot_secrets import SLIDES_MASTER_ID, MURAL_CLIENT, MURAL_SECRET, MURAL_ACCESS_TOKEN, MURAL_REFRESH_TOKEN, MURAL_WORKSPACE_ID, MURAL_ROOM_ID
 
+HEX_COLOR_POSTIT_YELLOW = "#FCFE7DFF"
+HEX_COLOR_LIGHT_GREEN = "#B5E5CFFF"
+
 async def stoplight(ctx, creds, terms):
     service = build('slides', 'v1', credentials=creds)
 
@@ -104,6 +107,21 @@ async def mural(ctx, mural_name):
 
         await ctx.send("Here's a new mural for you! Facilitator link (for SIL, requires login): <" + mural_get_member_link(mural_id, access_token) + ">\nGuest link (for students or SIL): <" + mural_get_visitor_link(mural_id, access_token) + ">")
 
+async def answer_quest(ctx, mural_name, terms):
+    request = requests.post('https://app.mural.co/api/public/v1/authorization/oauth2/token', headers={'Content-Type': 'application/x-www-form-urlencoded'}, data={'client_id': MURAL_CLIENT, 'client_secret': MURAL_SECRET, 'redirect_uri': 'http://localhost:8005', 'refresh_token': MURAL_REFRESH_TOKEN, 'grant_type': 'refresh_token'})
+
+    if request.status_code == 200:
+        access_token = request.json()['access_token']
+        mural_id = mural_create(access_token, MURAL_WORKSPACE_ID, MURAL_ROOM_ID, mural_name)
+        
+        width = 9000
+        height = 6000
+
+        placeAllStickies(mural_id, access_token, {'x': 50, 'y': 50, 'width': width, 'height': height}, 300, 300, terms['terms'], HEX_COLOR_LIGHT_GREEN, 45)
+        placeAllStickies(mural_id, access_token, {'x': 50, 'y': 50, 'width': width, 'height': height}, 500, 300, terms['definitions'], HEX_COLOR_POSTIT_YELLOW, 45)
+
+        await ctx.send("Here's a Answer Quest mural for you! Facilitator link (for SIL, requires login): <" + mural_get_member_link(mural_id, access_token) + ">\nGuest link (for students or SIL): <" + mural_get_visitor_link(mural_id, access_token) + ">")
+
 def mural_create( auth_token, workspace_id, room_id, title ):
     # https://developers.mural.co/public/reference/createmural
     url = "https://app.mural.co/api/public/v1/murals"
@@ -199,7 +217,7 @@ def mural_get_visitor_link(mural_id, auth_token, visitor_perm="write", member_pe
     else:
         return "unknown error when getting visitor link: " + response.status_code
 
-def placeAllStickies( mural_id, auth_token, rectangle, sticky_width, sticky_height, text_arr ):
+def placeAllStickies( mural_id, auth_token, rectangle, sticky_width, sticky_height, text_arr, note_color=HEX_COLOR_POSTIT_YELLOW, font_size=18):
     attempt = 0
 
     while attempt < 3:
@@ -217,7 +235,7 @@ def placeAllStickies( mural_id, auth_token, rectangle, sticky_width, sticky_heig
                         "width"  : sticky_width, 
                         "height" : sticky_height, 
                         "shape"  : "rectangle", 
-                        "style"  : { "backgroundColor" : "#b5e5cfFF", 'fontSize': 18 }, 
+                        "style"  : { "backgroundColor" : note_color, 'fontSize': font_size }, 
                         "text"   : txt }
                 mural_add_sticky( mural_id, auth_token, sticky )
                 stickies_arr.append( sticky )
@@ -305,5 +323,10 @@ ACTIVITY_INFO = {'stoplight': {
                   'name': 'Mural',
                   'function': mural,
                   'syntax': "To create a mural, use the following syntax: !create mural [new mural name]"
+                 },
+                 'answer_quest': {
+                  'name': 'Answer Quest',
+                  'function': answer_quest,
+                  'syntax': "To create an Answer Quest mural, use the following syntax: !create answer_quest [mural name,terms (separated by commas)|definitions (separated by commas)]"
                  },
                 }
