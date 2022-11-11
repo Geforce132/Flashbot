@@ -490,7 +490,7 @@
       "description": "",
       "main_activity": "true",
       "virtual": "false",
-      "low_prep": "true",
+      "low_prep": "false",
       "vark": "AK",
       "time": 10
     },

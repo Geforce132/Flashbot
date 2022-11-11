@@ -95,6 +95,14 @@ async def catastrophe(ctx, mural_name, terms):
         mural_add_shape(mural_id, access_token, 'square', 50, 50, width, height)
         await ctx.send("Here's a Catastrophe mural for you! Facilitator link (for SIL, requires login): <" + mural_get_member_link(mural_id, access_token) + ">\nGuest link (for students or SIL): <" + mural_get_visitor_link(mural_id, access_token) + ">")
 
+async def mural(ctx, mural_name):
+    request = requests.post('https://app.mural.co/api/public/v1/authorization/oauth2/token', headers={'Content-Type': 'application/x-www-form-urlencoded'}, data={'client_id': MURAL_CLIENT, 'client_secret': MURAL_SECRET, 'redirect_uri': 'http://localhost:8005', 'refresh_token': MURAL_REFRESH_TOKEN, 'grant_type': 'refresh_token'})
+
+    if request.status_code == 200:
+        access_token = request.json()['access_token']
+        mural_id = mural_create(access_token, MURAL_WORKSPACE_ID, MURAL_ROOM_ID, mural_name)
+
+        await ctx.send("Here's a new mural for you! Facilitator link (for SIL, requires login): <" + mural_get_member_link(mural_id, access_token) + ">\nGuest link (for students or SIL): <" + mural_get_visitor_link(mural_id, access_token) + ">")
 
 def mural_create( auth_token, workspace_id, room_id, title ):
     # https://developers.mural.co/public/reference/createmural
@@ -292,5 +300,10 @@ ACTIVITY_INFO = {'stoplight': {
                   'name': 'Catastrophe',
                   'function': catastrophe,
                   'syntax': "To create a Catastrophe mural, use the following syntax: !create catastrophe [terms separated by commas (min 2). The first term will be used as the mural's name]"
+                 },
+                 'mural': {
+                  'name': 'Mural',
+                  'function': mural,
+                  'syntax': "To create a mural, use the following syntax: !create mural [new mural name]"
                  },
                 }

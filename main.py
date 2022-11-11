@@ -78,6 +78,13 @@ async def catastrophe(ctx, *, message: str=""):
     else:
         await ctx.send(ACTIVITY_INFO['catastrophe']['syntax'])
 
+@create.command()
+async def mural(ctx, *, message: str=""):
+    if message != "":
+        await ACTIVITY_INFO['mural']['function'](ctx, message)
+    else:
+        await ctx.send(ACTIVITY_INFO['mural']['syntax'])
+
 @client.command()
 async def sessionplan(ctx, *args):
     num_args = len(args)
